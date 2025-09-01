@@ -1,0 +1,86 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all linear .3s;
+    scroll-behavior: smooth;
+    /* outline: 1px dashed #fff; */
+}
+
+
+::-webkit-scrollbar
+{
+  width: 0px;
+  height: 80%;
+	background-color: transparent;
+}
+::-webkit-scrollbar-track
+{
+  background:rgb(24, 24, 24);
+}
+p::-webkit-scrollbar-track
+{
+  background:transparent;
+}
+::-webkit-scrollbar-thumb
+{
+  background-color:#2a2a2a;
+  width: 3px;
+	border-radius: 20px;
+}
+::-webkit-scrollbar:hover ::-webkit-scrollbar-thumb{
+  width: 3px;
+}
+
+
+
+@font-face {
+    font-family: h-txt;
+    src: url(./assets/fonts/Sora-VariableFont_wght.ttf);
+}
+
+.dim-text
+{
+  opacity: .5;
+}
+.dim-text:hover
+{
+  opacity: 1;
+}
+
+.pop-btn
+{
+  transform: scale(1);
+  transition: ease .2s;
+}
+.pop-btn:hover
+{
+  transform: scale(1.05);
+}
+
+.highlight_icon
+{
+  position: relative;
+  isolation: isolate;
+}
+
+.highlight_icon::after
+{
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  z-index: -1;
+  background: rgba(0, 225, 255, 0.1);
+  height:calc(100% + 4px);
+  width:calc(100% + 8px);
+  border-radius: 10px;
+  opacity: 0;
+  transition: opacity linear .2s;
+}
+.highlight_icon:hover.highlight_icon::after
+{
+  opacity: 1;
+}
