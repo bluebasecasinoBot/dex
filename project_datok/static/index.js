@@ -1,4 +1,4 @@
-import { $, __m, __p, __sC, __SYD, __v, manage_mediaQuery, mediaFunction, SYD_VAR } from "../sydneyDom_v3.js";
+import { $, __m, __p, __sC, __SYD, __v, manage_mediaQuery, mediaFunction, SYD_VAR } from "./sydneyDom_v3.js";
 import "./styles/main.js"
 import "./styles/walletStyle.js"
 import "./variables.js"

@@ -1,4 +1,4 @@
-import { __sC, __sS } from "../../sydneyDom_v3.js";
+import { __sC, __sS } from "../sydneyDom_v3.js";
 
 //abstract styles
 __sS([

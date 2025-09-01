@@ -1,4 +1,4 @@
-import { __g, __u } from "../../sydneyDom_v3.js";
+import { __g, __u } from "../sydneyDom_v3.js";
 
 //Update states function
 export const updateState = ({name , prop , value}) =>{

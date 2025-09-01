@@ -1,4 +1,4 @@
-import { $, __p, __sC, __SYD, SYD_VAR } from "../../sydneyDom_v3.js";
+import { $, __p, __sC, __SYD, SYD_VAR } from "../sydneyDom_v3.js";
 import {copyText, trimVal, updateState, updateState__bulk } from "../utils/stateAssets.js"
 
 function copyAdx(e)

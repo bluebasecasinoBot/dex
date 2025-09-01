@@ -1,4 +1,4 @@
-import { SYD_VAR, SYD_VAR_constructor } from "../sydneyDom_v3.js";
+import { SYD_VAR, SYD_VAR_constructor } from "./sydneyDom_v3.js";
 
 SYD_VAR.container_bg = new SYD_VAR_constructor({value:"#242424"});
 SYD_VAR.headerClr = new SYD_VAR_constructor({value:"#ffffff"});

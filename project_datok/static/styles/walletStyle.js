@@ -1,4 +1,4 @@
-import { __sS } from "../../sydneyDom_v3.js";
+import { __sS } from "../sydneyDom_v3.js";
 
 __sS([
     {

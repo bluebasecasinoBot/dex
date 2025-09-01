@@ -1,4 +1,4 @@
-import { $, __p, __sC, __sS, __SYD, __v, SYD_VAR } from "../../sydneyDom_v3.js";
+import { $, __p, __sC, __sS, __SYD, __v, SYD_VAR } from "../sydneyDom_v3.js";
 import { updateState, updateState__bulk } from "./stateAssets.js";
 
 __sS([
